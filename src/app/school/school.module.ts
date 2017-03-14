@@ -1,17 +1,15 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { SchoolInfoModule } from './school-info/school-info.module';
 import { SchoolComponent } from './school.component';
-import { SchoolInfoService } from './school-info.service';
+import { SchoolRoutingModule, routedComponents} from './school-router.module';
 
 @NgModule({
   imports: [
-    CommonModule,
-    SchoolInfoModule
+    CommonModule, SchoolRoutingModule
   ],
-  declarations: [SchoolComponent],
-  providers:[SchoolInfoService],
-  exports:[SchoolComponent],
+  declarations: [routedComponents],
+  providers:[],
+  exports:[routedComponents],
   bootstrap: [SchoolComponent]
 })
 export class SchoolModule { }

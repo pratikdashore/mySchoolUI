@@ -2,21 +2,25 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
+import { MaterialModule } from '@angular/material';
 
 import { AppComponent } from './app.component';
 import { SchoolModule } from './school/school.module';
-
+import { AppRouterModule, RoutableComponents } from './app-router/app-router.module';
+import { SchoolInfoService } from './school/school-info.service';
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent, RoutableComponents
   ],
   imports: [
     BrowserModule,
     FormsModule,
     HttpModule,
-    SchoolModule
+    MaterialModule,
+    SchoolModule,
+    AppRouterModule
   ],
-  providers: [],
+  providers: [SchoolInfoService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
