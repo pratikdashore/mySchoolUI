@@ -1,0 +1,5 @@
+<nav md-tab-nav-bar>
+    <a md-tab-link *ngFor="let tabLink of tabLinks" [routerLink]="tabLink.url" routerLinkActive #rlaRef="routerLinkActive" [active]="rlaRef.isActive">
+        {{tabLink.display}}
+    </a>
+</nav>

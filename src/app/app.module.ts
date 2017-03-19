@@ -9,9 +9,10 @@ import { AppComponent } from './app.component';
 import { SchoolModule } from './school/school.module';
 import { AppRouterModule, RoutableComponents } from './app-router/app-router.module';
 import { SchoolInfoService } from './school/school-info.service';
+import { HeaderComponent } from './nav/header/header.component';
 @NgModule({
   declarations: [
-    AppComponent, RoutableComponents
+    AppComponent, RoutableComponents, HeaderComponent
   ],
   imports: [
     BrowserModule,
