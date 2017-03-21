@@ -1,4 +1,17 @@
-<app-header></app-header>
-<md-sidenav-container>
-    <router-outlet></router-outlet>
-</md-sidenav-container>
+<div class="ms-body-container">
+    <div class="ms-header">
+        <app-header></app-header>
+    </div>
+    <div class="ms-content">
+        <div class="ms-left-container"></div>
+        <div class="ms-main-container">
+            <md-sidenav-container>
+                <router-outlet></router-outlet>
+            </md-sidenav-container>
+        </div>
+        <div class="ms-right-container"></div>
+    </div>
+    <div class="ms-footer">
+        <app-footer></app-footer>
+    </div>
+</div>

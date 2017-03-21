@@ -1,9 +1,10 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 
-import { SchoolComponent } from './school.component';
-import { SchoolInfoComponent } from './school-info/school-info.component';
-import { SchoolFormComponent } from './school-form/school-form.component';
+import { SchoolComponent } from './../school.component';
+import { SchoolInfoComponent } from './../school-info/school-info.component';
+import { SchoolFormComponent } from './../school-form/school-form.component';
+
 
 const routes: Routes = [
     {

@@ -10,9 +10,10 @@ import { SchoolModule } from './school/school.module';
 import { AppRouterModule, RoutableComponents } from './app-router/app-router.module';
 import { SchoolInfoService } from './school/school-info.service';
 import { HeaderComponent } from './nav/header/header.component';
+import { FooterComponent } from './nav/footer/footer.component';
 @NgModule({
   declarations: [
-    AppComponent, RoutableComponents, HeaderComponent
+    AppComponent, RoutableComponents, HeaderComponent, FooterComponent
   ],
   imports: [
     BrowserModule,
