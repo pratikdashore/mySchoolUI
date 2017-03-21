@@ -1,0 +1,29 @@
+.hdr-menu-container {
+    display: flex;
+    padding-top: 18px;
+    justify-content: space-around;
+    flex-flow: row wrap;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+.hdr-child {
+    flex-grow: 1;
+}
+
+.hdr-menu-container ul {
+    list-style-type: none;
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.hdr-menu-container ul li {
+    flex-grow: 1;
+}
+
+.hdr-menu-container ul li a {
+    text-decoration: none;
+}
+
+header div:nth-child(1) {
+    flex-grow: 4;
+}

@@ -1,5 +1,13 @@
-<nav md-tab-nav-bar>
-    <a md-tab-link *ngFor="let tabLink of tabLinks" [routerLink]="tabLink.url" routerLinkActive #rlaRef="routerLinkActive" [active]="rlaRef.isActive">
-        {{tabLink.display}}
-    </a>
-</nav>
+<header class="hdr-menu-container" id="headerContainer">
+
+    <div class="hdr-child">
+        Some logo
+    </div>
+    <ul class="hdr-child">
+        <li *ngFor="let tabLink of tabLinks"><a class="no-text-underline" [routerLink]="tabLink.url" routerLinkActive #rlaRef="routerLinkActive">
+         {{tabLink.display}}</a></li>
+    </ul>
+    <div class="hdr-child">login</div>
+    <div class="hdr-child">signupdads</div>
+
+</header>
