@@ -1,6 +1,5 @@
 .hdr-menu-container {
     display: flex;
-    padding-top: 18px;
     justify-content: space-around;
     flex-flow: row wrap;
     border-bottom: 1px solid #e0e0e0;
@@ -14,6 +13,7 @@
     list-style-type: none;
     display: flex;
     flex-flow: row wrap;
+    justify-content: space-around;
 }
 
 .hdr-menu-container ul li {
@@ -25,5 +25,5 @@
 }
 
 header div:nth-child(1) {
-    flex-grow: 4;
+    flex-grow: 3;
 }
