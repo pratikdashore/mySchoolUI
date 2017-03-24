@@ -3,6 +3,7 @@
     justify-content: space-around;
     flex-flow: row wrap;
     border-bottom: 1px solid #e0e0e0;
+    background-color: cadetblue;
 }
 
 .hdr-child {
