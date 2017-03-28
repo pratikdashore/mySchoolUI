@@ -13,4 +13,10 @@ tabLinks = [{url:'/school', display:'School'},{url:'/student', display:'Student'
   ngOnInit() {
   }
 
+  public newSchoolOwner (){
+      alert('new School Owner');
+  }
+
+
+
 }

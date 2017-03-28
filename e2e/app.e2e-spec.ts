@@ -1,10 +1,10 @@
-import { MySchoolPage } from './app.po';
+import { MySchoolUIPage } from './app.po';
 
-describe('my-school App', () => {
-  let page: MySchoolPage;
+describe('my-school-ui App', () => {
+  let page: MySchoolUIPage;
 
   beforeEach(() => {
-    page = new MySchoolPage();
+    page = new MySchoolUIPage();
   });
 
   it('should display message saying app works', () => {
