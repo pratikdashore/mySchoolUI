@@ -8,9 +8,9 @@ describe('SchoolInfoComponent', () => {
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ SchoolInfoComponent ]
+      declarations: [SchoolInfoComponent]
     })
-    .compileComponents();
+      .compileComponents();
   }));
 
   beforeEach(() => {

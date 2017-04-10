@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { SchoolInfoService} from './school-info.service';
+import { SchoolInfoService } from './school-info.service';
 
 @Component({
   selector: 'app-school',
@@ -7,14 +7,14 @@ import { SchoolInfoService} from './school-info.service';
 })
 export class SchoolComponent implements OnInit {
 
-  private schoolInfoService : SchoolInfoService;
-  name : String = 'School Component ';
-  constructor(SchoolInfoService : SchoolInfoService) {
+  private schoolInfoService: SchoolInfoService;
+  name: String = 'School Component ';
+  constructor(SchoolInfoService: SchoolInfoService) {
     this.schoolInfoService = SchoolInfoService;
   }
 
   ngOnInit() {
-   console.log(this.schoolInfoService);
-}
+    console.log(this.schoolInfoService);
+  }
 
 }
