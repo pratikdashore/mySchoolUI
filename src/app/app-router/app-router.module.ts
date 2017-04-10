@@ -19,7 +19,7 @@ const appRoutes: Routes = [
     RouterModule
   ]
 })
-export class AppRouterModule { 
+export class AppRouterModule {
    constructor(router: Router) {
     console.log('Routes: ', JSON.stringify(router.config, undefined, 2));
   }
@@ -27,4 +27,4 @@ export class AppRouterModule {
 
 export const RoutableComponents = [
   PageNotFoundComponent
-]
+];

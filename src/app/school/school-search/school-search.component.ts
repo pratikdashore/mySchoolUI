@@ -6,7 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./school-search.component.css']
 })
 export class SchoolSearchComponent implements OnInit {
-    name = "Pratik Dashore";
+    name = 'Pratik Dashore';
   constructor() { }
 
   ngOnInit() {

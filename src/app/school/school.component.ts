@@ -6,15 +6,15 @@ import { SchoolInfoService} from './school-info.service';
   templateUrl: './school.component.html'
 })
 export class SchoolComponent implements OnInit {
-  
+
   private schoolInfoService : SchoolInfoService;
   name : String = 'School Component ';
-  constructor(SchoolInfoService : SchoolInfoService) { 
+  constructor(SchoolInfoService : SchoolInfoService) {
     this.schoolInfoService = SchoolInfoService;
   }
 
   ngOnInit() {
-   console.log(this.schoolInfoService);  
+   console.log(this.schoolInfoService);
 }
 
 }
