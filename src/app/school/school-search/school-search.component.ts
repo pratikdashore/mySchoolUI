@@ -7,6 +7,11 @@ import { Component, OnInit } from '@angular/core';
 })
 export class SchoolSearchComponent implements OnInit {
   name: string;
+  lName: string;
+  onClick(): void {
+    this.lName = this.name;
+    alert(this.lName);
+  };
   constructor() { }
 
   ngOnInit() {
