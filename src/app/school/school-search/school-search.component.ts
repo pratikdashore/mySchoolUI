@@ -10,7 +10,6 @@ export class SchoolSearchComponent implements OnInit {
   lName: string;
   onClick(): void {
     this.lName = this.name;
-    alert(this.lName);
   };
   constructor() { }
 
