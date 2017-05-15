@@ -15,7 +15,7 @@ const routes: Routes = [
                 path: '',
                 children: [
                     { path: 'info/:id', component: SchoolInfoComponent },
-                    { path: 'form', component: SchoolFormComponent },
+                    { path: 'new', component: SchoolFormComponent },
                     { path: 'edit/:id', component: SchoolFormComponent },
                 ]
             }

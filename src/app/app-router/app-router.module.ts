@@ -21,7 +21,6 @@ const appRoutes: Routes = [
 })
 export class AppRouterModule {
   constructor(router: Router) {
-    console.log('Routes: ', JSON.stringify(router.config, undefined, 2));
   }
 }
 

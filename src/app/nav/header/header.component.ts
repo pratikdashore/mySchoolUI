@@ -21,6 +21,10 @@ export class HeaderComponent implements OnInit {
     alert('new School Owner');
   }
 
+  public signIn() {
+    alert('Sign in called');
+  }
+
 
 
 }
