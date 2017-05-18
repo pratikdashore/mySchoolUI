@@ -1,3 +1,10 @@
-<p>
-    school-search works!
-</p>
+<div>
+    <form fxLayoutGap="2px" fxLayout="row" fxLayout.xs="column" id="schoolSearch">
+        <md-input-container fxFlex="3 3 auto">
+            <input name="search1" mdInput placeholder="School or College Name" [(ngModel)]="name">
+        </md-input-container>
+        <button fxFlex md-icon-button (click)="onClick()" color="primary">
+        <md-icon class="md-18">search</md-icon>
+    </button>
+    </form>
+</div>

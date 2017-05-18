@@ -4,7 +4,7 @@ import { PageNotFoundComponent } from '../page-not-found/page-not-found.componen
 
 const appRoutes: Routes = [
   { path: '', pathMatch: 'full', redirectTo: '/school' },
-  { path: 'school', loadChildren : 'app/school/school.module#SchoolModule'},
+  //{ path: 'school', loadChildren: 'app/school/school.module#SchoolModule' },
   { path: '**', component: PageNotFoundComponent }
 ];
 
@@ -19,12 +19,11 @@ const appRoutes: Routes = [
     RouterModule
   ]
 })
-export class AppRouterModule { 
-   constructor(router: Router) {
-    console.log('Routes: ', JSON.stringify(router.config, undefined, 2));
+export class AppRouterModule {
+  constructor(router: Router) {
   }
 }
 
 export const RoutableComponents = [
   PageNotFoundComponent
-]
+];

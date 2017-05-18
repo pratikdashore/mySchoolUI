@@ -1,6 +1,6 @@
 import { browser, element, by } from 'protractor';
 
-export class MySchoolPage {
+export class MySchoolUIPage {
   navigateTo() {
     return browser.get('/');
   }

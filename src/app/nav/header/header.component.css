@@ -1,29 +1,14 @@
-.hdr-menu-container {
-    display: flex;
-    justify-content: space-around;
-    flex-flow: row wrap;
+.menu-container {
     border-bottom: 1px solid #e0e0e0;
+    background-color: cadetblue;
+    height: 50px;
+    color: beige;
 }
 
-.hdr-child {
-    flex-grow: 1;
-}
-
-.hdr-menu-container ul {
+.list-no-style {
     list-style-type: none;
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: space-around;
 }
 
-.hdr-menu-container ul li {
-    flex-grow: 1;
-}
-
-.hdr-menu-container ul li a {
-    text-decoration: none;
-}
-
-header div:nth-child(1) {
-    flex-grow: 3;
+.bgc-pink {
+    background-color: #569696;
 }

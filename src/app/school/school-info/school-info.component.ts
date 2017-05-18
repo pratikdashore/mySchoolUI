@@ -7,7 +7,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class SchoolInfoComponent implements OnInit {
 
-  name : String = 'School info component';
+  name: String = 'School info component';
   constructor() { }
 
   ngOnInit() {

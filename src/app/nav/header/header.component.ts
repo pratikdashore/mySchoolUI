@@ -7,10 +7,24 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HeaderComponent implements OnInit {
 
-tabLinks = [{url:'/school', display:'School'},{url:'/student', display:'Student'},{url:'/school', display:'School'},{url:'/student', display:'Student'},{url:'/school', display:'School'}];
+  tabLinks = [{ url: '/school', display: 'School' },
+  { url: '/student', display: 'Student' },
+  { url: '/school', display: 'School' },
+  { url: '/student', display: 'Student' },
+  { url: '/school', display: 'School' }];
   constructor() { }
 
   ngOnInit() {
   }
+
+  public newSchoolOwner() {
+    alert('new School Owner');
+  }
+
+  public signIn() {
+    alert('Sign in called');
+  }
+
+
 
 }
