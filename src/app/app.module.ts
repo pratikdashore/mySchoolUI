@@ -4,6 +4,7 @@ import { FormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
 import { MaterialModule } from '@angular/material';
 import { FlexLayoutModule } from '@angular/flex-layout';
+import { NoopAnimationsModule } from '@angular/platform-browser/animations';
 import 'hammerjs';
 
 import { AppComponent } from './app.component';
@@ -25,7 +26,8 @@ import { RightContainerComponent } from './nav/right-container/right-container.c
     MaterialModule,
     FlexLayoutModule,
     SchoolModule,
-    AppRouterModule
+    AppRouterModule,
+    NoopAnimationsModule
   ],
   providers: [SchoolInfoService],
   bootstrap: [AppComponent]
