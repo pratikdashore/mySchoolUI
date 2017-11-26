@@ -1,14 +1,14 @@
-import { MySchoolUIPage } from './app.po';
+import { AppPage } from './app.po';
 
-describe('my-school-ui App', () => {
-  let page: MySchoolUIPage;
+describe('ng-cli App', () => {
+  let page: AppPage;
 
   beforeEach(() => {
-    page = new MySchoolUIPage();
+    page = new AppPage();
   });
 
-  it('should display message saying app works', () => {
+  it('should display welcome message', () => {
     page.navigateTo();
-    expect(page.getParagraphText()).toEqual('app works!');
+    expect(page.getParagraphText()).toEqual('Welcome to app!');
   });
 });
